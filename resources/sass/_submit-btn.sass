@@ -1,0 +1,48 @@
+.submit
+  margin-top: 30px
+  margin-left: auto
+  margin-right: 10%
+  width: 20%
+  height: 50px
+  .submit__btn
+    @include submit-btn(16px)
+
+.btn-group
+  display: flex
+  justify-content: space-around
+  margin-top: 50px
+  margin-bottom: 70px
+  .cancel
+    @include cancel-btn(15px)
+    width: 30%
+    height: 50px
+  .submit
+    @include submit-btn(15px)
+    margin: 0
+    width: 30%
+    height: 50px
+
+@include sm
+  .submit
+    margin-top: 30px
+    margin-left: auto
+    margin-right: 10%
+    width: 32%
+    height: 40px
+    .submit__btn
+      @include submit-btn(16px)
+
+  .btn-group
+    display: flex
+    justify-content: space-around
+    margin-top: 50px
+    margin-bottom: 70px
+    .cancel
+      @include cancel-btn(15px)
+      width: 40%
+      height: 35px
+    .submit
+      @include submit-btn(15px)
+      margin: 0
+      width: 40%
+      height: 35px
