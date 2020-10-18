@@ -32,32 +32,32 @@
 
 # 3. 使用技術一覧
 
-**◯インフラ**
+**◯インフラ**  
 
-開発環境
-Docker /docker-compose
-データベース Postgres
+開発環境  
+Docker /docker-compose  
+データベース Postgres  
 
-本番環境
-AWS(ECS, EC2, RDS for postgres, VPC,S3, ALB,)
+本番環境  
+AWS(ECS, EC2, RDS for postgres, VPC,S3, ALB,)  
 
-**◯使用言語**
-PHP,JavaScript, Sass
+**◯使用言語**  
+PHP,JavaScript, Sass  
 
-**◯フレームワーク**
-Laravel, Vue.js
+**◯フレームワーク**  
+Laravel, Vue.js  
 
-**◯ライブラリ**
-Vuex（状態管理）  
-micromodal（モーダル）  
-vue-click-outside（要素以外のクリック時にイベント発火）  
-vue-clipboard2（クリップボードへデータを保存）  
+**◯ライブラリ**  
+Vuex（状態管理）    
+micromodal（モーダル）    
+vue-click-outside（要素以外のクリック時にイベント発火）    
+vue-clipboard2（クリップボードへデータを保存）    
 
-**◯プラグイン**
-VueRouter（ルーティングの制御）
+**◯プラグイン**  
+VueRouter（ルーティングの制御）  
 
-**◯デプロイ方法**
-イメージをECRへプッシュし、プッシュしたイメージURIをECSのコンテナのイメージとして登録する
+**◯デプロイ方法**  
+イメージをECRへプッシュし、プッシュしたイメージURIをECSのコンテナのイメージとして登録する  
 
 **◯その他の技術**
 ・セッション管理は、AWS ALBによるトラフィックの負荷分散とスティッキーセッションによるユーザーごとにサーバーを固定することで実現  
