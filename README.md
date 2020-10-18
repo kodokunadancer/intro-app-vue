@@ -7,6 +7,69 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+1. アプリケーションの概要
+
+各々が自由にグループを作り、所属し、その中でプロフィールを共有する。（レスポンシブ対応）
+
+2. アプリケーション主要機能一覧
+
+◯会員登録、ログイン、ログアウト
+◯プロフィールの作成
+◯ログイン、プロフィール作成状態に応じた◯ホームページの切り替え
+◯グループの作成、参加、退出、検索
+◯グループ作成者のみができる、グループの削除、強制退出処理
+◯モデルにて6桁のグループのパスワードと12桁の画像IDの自動生成
+◯グループのパスワード確認、パスワードのコピー
+◯グループサムネイル、プロフィールサムネイルの画像アップロード（S3へ保存）
+◯グループ、プロフィールの編集処理
+◯モーダルウインドウ
+◯処理中のロード表示
+◯処理後のフラッシュメッセージ
+◯各マイページにコメント投稿、いいね機能
+◯エラーの際、ステータスコードに応じたエラーページに切り替える
+
+3. 使用技術一覧
+
+◯インフラ
+
+開発環境
+Docker /docker-compose
+データベース Postgres
+
+本番環境
+AWS(ECS, EC2, RDS for postgres, VPC,S3, ALB,)
+
+◯使用言語
+PHP,JavaScript, Sass
+
+◯フレームワーク
+Laravel, Vue.js
+
+◯ライブラリ
+Vuex（状態管理）
+micromodal（モーダル）
+vue-click-outside（要素以外のクリック時にイベント発火）
+vue-clipboard2（クリップボードへデータを保存）
+
+◯プラグイン
+VueRouter（ルーティングの制御）
+
+◯デプロイ方法
+イメージをECRへプッシュし、プッシュしたイメージURIをECSのコンテナのイメージとして登録する
+
+◯その他の技術
+・セッション管理は、AWS ALBによるトラフィックの負荷分散とスティッキーセッションによるユーザーごとにサーバーを固定することで実現
+・Vue.js と Laravel を組み合わせたSPAの構築
+・SPA におけるクッキー認証と CSRF 対策
+・Vue Router を使用した画面遷移
+・Vuex を使用した状態管理
+・Vue でのタブやローディング UI の表現
+・SPA におけるエラー処理
+・ミドルウェアによるページ認証
+・PolicyとGateの使用
+・LaravelからS3へファイルの保存
+・レスポンシブデザイン
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
