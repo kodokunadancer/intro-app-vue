@@ -39,7 +39,10 @@ Docker /docker-compose
 データベース Postgres  
 
 本番環境  
-AWS(ECS, EC2, RDS for postgres, VPC,S3, ALB,)  
+AWS(ECS, EC2, RDS for postgres, VPC,S3, ALB,)   
+  
+アーキテクチャ図  
+![AWS アーキテクチャ図](https://drive.google.com/file/d/1Pl7f6s0zG2RnBD_zg2S6RfSA8400Hd3j/view?usp=sharing)
 
 **◯使用言語**  
 PHP,JavaScript, Sass  
