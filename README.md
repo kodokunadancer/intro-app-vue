@@ -34,14 +34,14 @@
 
 **◯インフラ**  
 
-開発環境  
+**開発環境**
 Docker /docker-compose  
 データベース Postgres  
 
-本番環境  
+**本番環境**  
 AWS(ECS, EC2, RDS for postgres, VPC,S3, ALB,)   
   
-アーキテクチャ図  
+**アーキテクチャ図**  
 ![AWS アーキテクチャ図](https://introductionapp.s3-ap-northeast-1.amazonaws.com/vue/Intro-app-vue_AWS_ArchitectureDiagram-intro-app-vue.jpg)
 
 **◯使用言語**  
