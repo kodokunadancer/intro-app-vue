@@ -42,8 +42,11 @@ Docker /docker-compose
 AWS(ECS, EC2, RDS for postgres, VPC,S3, ALB,)   
   
 **アーキテクチャ図**  
-![AWS アーキテクチャ図](https://introductionapp.s3-ap-northeast-1.amazonaws.com/vue/Intro-app-vue_AWS_ArchitectureDiagram-intro-app-vue.jpg)
-
+![AWS アーキテクチャ図](https://introductionapp.s3-ap-northeast-1.amazonaws.com/vue/Intro-app-vue_AWS_ArchitectureDiagram-intro-app-vue.jpg)  
+  
+**ER図**  
+![ER図](https://introductionapp.s3-ap-northeast-1.amazonaws.com/vue/ECR.jpg)  
+  
 **◯使用言語**  
 PHP,JavaScript, Sass  
 
