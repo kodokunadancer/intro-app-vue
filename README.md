@@ -75,6 +75,15 @@ VueRouter（ルーティングの制御）
 ・LaravelからS3へファイルの保存  
 ・レスポンシブデザイン  
 
+# 4. アプリの使い方（一部分のみ紹介）  
+
+①まずログインする（すでにアカウントを作成済み）  
+②グループ一覧画面に遷移し、すでにグループにしょ所属している  
+③グループをタップすると、グループに所属しているユーザーのプロフィール（自分も含めた）が一覧として表示される  
+④自分のぷプロフィールの編集上にある編集ボタンを押すことで編集できる（自由に変更可）  
+⑤ドロップダウンをタップし、自分のユーザー名をタップすると、マイページに遷移する。マイページには、他のユーザーから寄せられたコメント一覧といいねが表示される（自由にコメントやいいね可）  
+⑥グループの中のプロフィール一覧で、他ユーザーのプロフィールをタップすると、マイページと同じように、そのユーザーのプロフィール詳細が表示され、寄せられたコメントやいいねが一覧で表示される（自由にコメントやいいね可）  
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
