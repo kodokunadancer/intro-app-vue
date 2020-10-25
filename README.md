@@ -73,7 +73,7 @@ Docker /docker-compose
 データベース Postgres  
 
 **本番環境**  
-AWS(ECS, EC2, RDS for postgres, VPC,S3, ALB,)   
+AWS(ECS, EC2, ECR, RDS for postgres, VPC, S3, ALB,)   
   
 **アーキテクチャ図**    
 ![AWS アーキテクチャ図](https://introductionapp.s3-ap-northeast-1.amazonaws.com/vue/intro-app-vue_AWS_Architecture.jpg)     
