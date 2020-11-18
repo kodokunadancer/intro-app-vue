@@ -76,6 +76,7 @@ Docker /docker-compose
 AWS(ECS, EC2, ECR, RDS for postgres, VPC, S3, ALB,)   
   
 **アーキテクチャ図**    
+自分で書きました。  
 ![AWS アーキテクチャ図](https://introductionapp.s3-ap-northeast-1.amazonaws.com/vue/intro-app-vue_AWS_Architecture.jpg)     
     
 **◯使用言語**  
