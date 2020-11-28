@@ -81,7 +81,7 @@ AWS(ECS, EC2, ECR, RDS for postgres, VPC, S3, ALB,)
   
 **ER図**
 自分で書きました。
-![ER図](https://introductionapp.s3-ap-northeast-1.amazonaws.com/vue/Intro-app-vue_AWS_ArchitectureDiagram+(1).drawio)  
+![ER図](https://introductionapp.s3-ap-northeast-1.amazonaws.com/vue/intro-app-vue_er.png)  
 補足
 ・UsersとProfilesを紐付けてるけど、users.nameとprofiles.nameの違いは？
 →2つデータ存在してるんじゃないか
