@@ -79,12 +79,13 @@ AWS(ECS, EC2, ECR, RDS for postgres, VPC, S3, ALB,)
 自分で書きました。  
 ![AWS アーキテクチャ図](https://introductionapp.s3-ap-northeast-1.amazonaws.com/vue/intro-app-vue_AWS_Architecture.jpg)  
   
-**ER図**
-自分で書きました。
+**ER図**  
+自分で書きました。  
 ![ER図](https://introductionapp.s3-ap-northeast-1.amazonaws.com/vue/Intro-app-vue_er+(3).png)  
-補足
-・UsersとProfilesを紐付けてるけど、users.nameとprofiles.nameの違いは？
-→2つデータ存在してるんじゃないか
+  
+補足  
+・UsersとProfilesを紐付けてるけど、users.nameとprofiles.nameの違いは？  
+→2つデータ存在してるんじゃないか  
 A このアプリは、最終的に一人のユーザーが多数のプロフィールを所有することができ、グループに応じてプロフィールを使い分けることができる仕様にしたいので、ユーザーネームとプロフィールネームを分ける必要があった  
   
 ・photos, comments, likesのFKをusersではなくprofilesにしている理由は？  
@@ -92,7 +93,7 @@ A このアプリは、最終的に一人のユーザーが多数のプロフィ
 A 上の理由と同じで、一人のユーザーが複数のプロフィールを所持しているので、そのプロフィールごとに、写真やコメント、いいねを付与していきたいため  
   
 ・Photosにprofilesとgroupsの両方を紐付けたのはアップロードした人とグループと2つ保存したいから？  
-→上記の理由であれば良し
+→上記の理由であれば良し  
 A LINEと同じようにプロフィールとグループのどちらにも写真を設定できるようにした。  
     
 **◯使用言語**  
